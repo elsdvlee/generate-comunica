@@ -14,7 +14,7 @@ import { Actor, IAction, IActorArgs, IActorOutput, IActorTest, Mediate } from '@
 export abstract class Actor<%= componentBaseName %> extends Actor<IAction<%= componentBaseName %>, IActorTest, IActor<%= componentBaseName %>Output> {
   /**
   * @param args - @defaultNested {<default_bus> a <cc:components/Bus.jsonld#Bus>} bus
-  */                          
+  */                         
   public constructor(args: IActor<%= componentBaseName %>Args) {
     super(args);
   }
